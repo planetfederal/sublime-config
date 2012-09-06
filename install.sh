@@ -2,7 +2,7 @@
 
 if [ -z "$SUBLIME_CONFIG_DIR"]
 then
-    SUBLIME_CONFIG_DIR=~/.config/sublime-text-2/Schmackages
+    SUBLIME_CONFIG_DIR=~/.config/sublime-text-2/Packages
 fi
 
 if ! [ -d "$SUBLIME_CONFIG_DIR" ]
