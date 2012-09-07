@@ -87,7 +87,7 @@
 					<key>comment</key>
 					<string>directives</string>
 					<key>match</key>
-					<string>(\.\.)\s[A-z][A-z0-9_\-]+(::)\s*$</string>
+					<string>(\.\.)\s[A-z][A-z0-9_\-]+(::)\s*</string>
 					<key>name</key>
 					<string>meta.other.directive.restructuredtext</string>
 				</dict>
