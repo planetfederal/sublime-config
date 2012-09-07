@@ -9,3 +9,9 @@ On Linux and OSX:
 ```#sh
 sh install.sh
 ```
+
+On Windows:
+
+```
+install
+```
