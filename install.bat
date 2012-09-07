@@ -9,12 +9,12 @@ if not errorlevel 1 goto copyPackages else goto noConfigDir
 :noConfigDir
 echo Aborting because "%SUBLIME_CONFIG_DIR%" does not appear to be the Sublime Text
 echo packages directory.  You can determine the correct configuration directory
-echo using the [Preferences > Browse Packages...] menu option in Sublime Text.
+echo using the [Preferences ^> Browse Packages...] menu option in Sublime Text.
 echo Then specify it at the command line like:
 echo set SUBLIME_CONFIG_DIR="path\to\sublime\Packages"
 echo install.bat
 endlocal
-goto eof
+goto :eof
 
 :copyPackages
 xcopy "%cd%\Packages" "%SUBLIME_CONFIG_DIR%\Packages" /S /Y
